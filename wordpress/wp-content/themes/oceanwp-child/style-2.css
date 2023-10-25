@@ -1,0 +1,268 @@
+/*
+Theme Name: OceanWP Child
+Theme URI: https://oceanwp.org/
+Template: oceanwp
+Author: OceanWP
+Author URI: https://oceanwp.org/about-oceanwp/
+Description: OceanWP is the perfect theme for your project. Lightweight and highly extendable, it will enable you to create almost any type of website such a blog, portfolio, business website and WooCommerce storefront with a beautiful &amp; professional design. Very fast, responsive, RTL &amp; translation ready, best SEO practices, unique WooCommerce features to increase conversion and much more. You can even edit the settings on tablet &amp; mobile so your site looks good on every device. Work with the most popular page builders as Elementor, Beaver Builder, Brizy, Visual Composer, Divi, SiteOrigin, etc... Developers will love his extensible codebase making it a joy to customize and extend. Best friend of Elementor &amp; WooCommerce. Looking for a Multi-Purpose theme? Look no further! Check the demos to realize that it's the only theme you will ever need: https://oceanwp.org/demos/
+Tags: two-columns,right-sidebar,footer-widgets,blog,news,custom-background,custom-menu,post-formats,rtl-language-support,sticky-post,editor-style,threaded-comments,translation-ready,buddypress,custom-colors,featured-images,full-width-template,theme-options,e-commerce,block-styles,wide-blocks,accessibility-ready
+Version: 3.5.0.1696856412
+Updated: 2023-10-09 15:00:12
+
+*/
+
+/*PAGE HOME*/
+/* 
+.img.custom-logo {
+    width: 1795.96px;
+    height: 165px;
+    top: -2459px;
+    left: 58px;
+}
+
+.menu-item-18 {
+    background-color: #E0B9B4;
+}
+
+.menu-item-18:hover {
+    background-color: #C02E44;
+}
+
+.wp-block-group {
+    background-color: #E3D9D0;
+    border-radius: 0% 0% 10% 10%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+h1#titreHome {
+    color: #3B8E46;
+    font-weight: 800;
+    justify-items: center;
+    padding: 15px;
+    margin: 0px;
+}
+
+h2#titreHome {
+    color: #3B8E46;
+    font-weight: 700;
+    margin: 10px;
+}
+
+
+h2.wp-block-heading {
+    color: #3B8E46
+}
+
+h3.wp-block-heading {
+    color: #D2776A;
+    font-weight: 800;
+    margin-top: 25px;
+}
+
+
+a.wp-block-button__link {
+    background-color: #E0B9B4;
+    color: white;
+    border-radius: 0%;
+    margin: 20px;
+}
+
+h1.elementor-heading-title{
+    color: #C02E44;
+}
+/*
+/*Nous rencontrer
+
+
+
+h1.has-text-align-center {
+    color: #D2776A;
+    font-weight: 800;
+    margin-top: 120px;
+    display: flex;
+
+}
+
+p.has-text-align-center {
+    font-size: 400;
+}
+
+h2.wp-block-group__inner-container {
+    background: white;
+}
+
+h2.wp-block-heading {
+    color: black;
+    padding-top: 20px;
+}
+*/
+/*formulaire contact
+
+.wpcf7-form-control {
+    background-color: white;
+
+}
+
+.wpcf7-form-control.wpcf7-email {
+    background-color: white
+}
+
+.wpcf7-form-control.wpcf7-text {
+    background-color: white;
+}
+
+.wpcf7-form-control.wpcf7-submit {
+    background-color: #E0B9B4;
+}
+
+.wpcf7-form-control.wpcf7-submit:hover {
+    color: white;
+    background-color: #C02E44;
+}
+*/
+/* COMMANDER 
+
+.fond_vert{
+    background-color: #3B8E46;
+}
+
+.titrep3{
+    color:white;
+    font-weight: 800;
+    padding: 30px;
+}
+
+.fraise {
+    margin-right:10px; 
+     
+}
+
+.pamplemousse{
+    margin-left:10px;
+    margin-right:10px; 
+}
+
+.framboise {
+    margin-left:10px;
+    margin-right:10px; 
+}
+
+.citron {
+    margin-left:10px;
+   
+}
+
+h2.sous_titre {
+    color:white;
+    display: flex;
+    justify-content: flex-start;
+   
+
+}
+
+h2.sous_titres {
+    color:white;
+    border-top:1px solid white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+
+.variantes{
+	display: flex;
+    justify-content: space-between;
+	border-bottom:2px solid white;
+	padding-top:0px;
+	padding-bottom:40px;
+	margin-bottom: 40px;
+   
+}
+
+.wpcf7-form-control.wpcf7-number{
+    background-color: white; 
+    color: black;  
+
+}
+
+button{
+    color:white;
+    background-color: #E0B9B4;
+    border-style: none;
+    border: 5px 20px 5px 20px;
+    margin-right: 0px;
+    padding:10px;
+    margin-top: 5px;
+    width: 15%;
+    
+}
+
+button.nombre{
+    background-color: white;
+    border-radius:5px 0px 0px 5px;
+    margin-right: 0px;
+    margin-bottom: 0px; 
+    margin-top: 0px;
+    margin-left: 0px;
+    color: black;
+    width: 15%;
+    padding: 15px;
+}
+
+button.plus{
+    background-color: #dc9f96;
+    margin: 0px;
+    border-radius: 0px 5px 0px 0px;
+    padding:2px;
+}
+
+button.moins{
+    background-color: #dc9f96;
+    margin: 0px;
+    border-radius: 0px 0px 5px 0px;
+    padding: 2px; 
+    
+}
+
+
+.info {
+    display: flex;
+    justify-content: center;
+    
+}
+    
+
+
+
+
+.droite{
+	border-left:1px solid white;
+    padding-left: 30px;
+    
+.gauche{
+    border-right:1px solid white;
+    padding-right:30px;
+    
+    
+}
+
+
+.envoi {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.wpcf7-spinner{
+    display: none;
+}
+
+#footer-bottom-inner{
+    display: flex;
+}
+*/
