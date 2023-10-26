@@ -26,8 +26,8 @@ Updated: 2023-10-09 15:00:12
 
 .fraise {
     margin-right:10px;  
-    display: flex;   
-    
+    display: flex; 
+    flex-direction: column;  
 }
 
 .pamplemousse{
@@ -41,10 +41,13 @@ Updated: 2023-10-09 15:00:12
     margin-left:10px;
     margin-right:10px; 
     display: flex;
+    flex-direction: column;
 }
 
 .citron {
-    margin-left:10px;  
+    margin-left:10px; 
+    display: flex;
+    flex-direction: column;
 }
 
 h2.sous_titres{
@@ -67,37 +70,56 @@ h2.sous_titre{
 .compteur{
     display:flex;
     flex-direction: row;
+    width:200px ;
+    height: 56px;
 }
 
-button.nombre{
-    width: 20%;
-    background-color: white;
-    border:none;
+button.Nombres{
+    width: 70px;
+    height: 56px;
+    border-radius:5px 0px 0px 5px;
+    margin-top: 5px;
+    border: none;
 }
+
+
 
 button.bouttonplus{
-    width: 12%;
-    border:white solid;
-    background-color: #E0B9B4;
+    width: 20px;
+    height: 27px;
+    border:white solid 1px;
+    background-color:#DC9F96;
+    border-radius: 0px 5px 0px 0px;
+    margin-right: 0px;
+    padding:10px;
+    margin-top: 5px;
 }
+
 button.bouttonmoins{
-    width: 12%;
-    border-color:white;
-    background-color: #E0B9B4;
+    width: 20px;
+    height:27px;
+    color:white;
+    background-color: #DC9F96;
+    border-radius: 0px 0px 5px 0px;
+    border:white solid 1px;
+    margin-right: 0px;
+    padding-right:15px;
+    margin-bottom: 22px;
+    padding-bottom: 5px;
 
-}
-
-.wpcf7-form-control.wpcf7-number{
-    width: 12%;
 }
 
 button.bouttonvalider{
-    width: 50%;
-    border-color:white;
-}
-button.bouttonvalider :hover{
-    color: #E0B9B4;
+    width: 136px;
+    height:56px;
+    background-color: #E0B9B4;
+    color: white;
     border-color: white;
+    border-style: none;
+    border-radius: 5px 5px 5px 5px;
+    padding:10px;
+    margin-left:36px ;
+    margin-top: 5px;
     
 }
 /*button{
