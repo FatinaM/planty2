@@ -6,9 +6,7 @@ Template Name: Page commande
 get_header(); ?>
 
 <div class="fond_vert">
-	ICI FORMULAIRE + et - 
-	<input type="text">
-	<div class="center">
+	<div class="center page_commande">
 		<h3 class="titrep3"><?php the_title(); ?></h3>
 		<div class="container">
 			<?php 

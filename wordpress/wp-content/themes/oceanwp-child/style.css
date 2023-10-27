@@ -8,55 +8,34 @@ Description: OceanWP is the perfect theme for your project. Lightweight and high
 Tags: two-columns,right-sidebar,footer-widgets,blog,news,custom-background,custom-menu,post-formats,rtl-language-support,sticky-post,editor-style,threaded-comments,translation-ready,buddypress,custom-colors,featured-images,full-width-template,theme-options,e-commerce,block-styles,wide-blocks,accessibility-ready
 Version: 3.5.0.1696856412
 Updated: 2023-10-09 15:00:12
-
 */
-/* page nous renconter*/
+/****************personalisation menu***********/
 
-/*page commande*/
+.current-menu-item{
+    font-weight: 600;
+}
+/*******************page commande personalisation générale****************/
 
 .fond_vert{
     background-color: #3B8E46;
 }
-
 .titrep3{
     color:white;
     font-weight: 800;
     padding: 30px;
 }
-
-.fraise {
-    margin-right:10px;  
-    display: flex; 
-    flex-direction: column;  
-}
-
-.pamplemousse{
-    margin-left:10px;
-    margin-right:10px;
-    display: flex; 
-    flex-direction: column;   
-}
-
-.framboise {
-    margin-left:10px;
-    margin-right:10px; 
-    display: flex;
-    flex-direction: column;
-}
-
-.citron {
-    margin-left:10px; 
-    display: flex;
-    flex-direction: column;
-}
-
 h2.sous_titres{
     color: white;
 }
-
 h2.sous_titre{
     color: white;
 }
+
+.page_commande{
+    width: 75%;
+    margin: 0 auto;
+}
+ /************ premiere partie formulaire*************/
 
 .variantes{
 	display: flex;
@@ -66,124 +45,116 @@ h2.sous_titre{
 	padding-bottom:40px;
 	margin-bottom: 40px;  
 }
+.fraise {
+    margin-right:10px;  
+    display: flex; 
+    flex-direction: column;  
+    width: 23%;
+}
 
+.pamplemousse{
+    margin-left:10px;
+    margin-right:10px;
+    display: flex; 
+    flex-direction: column; 
+    width: 23%;  
+}
+
+.framboise {
+    margin-left:10px;
+    margin-right:10px; 
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+}
+.citron {
+    margin-left:10px; 
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+}
+/*bouttons*/
 .compteur{
     display:flex;
     flex-direction: row;
-    width:200px ;
-    height: 56px;
+   /* width:200px ;
+    height: 56px;*/
 }
 
 button.Nombres{
-    width: 70px;
-    height: 56px;
+    width: 44px;
+    height: 54px;
     border-radius:5px 0px 0px 5px;
     margin-top: 5px;
     border: none;
 }
-
-
+button.Nombres input{
+    border:0;
+}
 
 button.bouttonplus{
-    width: 20px;
+    width: 30px;
     height: 27px;
     border:white solid 1px;
     background-color:#DC9F96;
     border-radius: 0px 5px 0px 0px;
     margin-right: 0px;
-    padding:10px;
+    /*padding:10px;*/
     margin-top: 5px;
+    content: '+';
+    color:white;
 }
 
 button.bouttonmoins{
-    width: 20px;
+    width: 30px;
     height:27px;
     color:white;
     background-color: #DC9F96;
     border-radius: 0px 0px 5px 0px;
     border:white solid 1px;
-    margin-right: 0px;
-    padding-right:15px;
-    margin-bottom: 22px;
-    padding-bottom: 5px;
+    /*margin-right: 0px;*/
+    /*padding-right:15px;*/
+    /*margin-bottom: 22px;*/
+    /*padding-bottom: 5px;*/
 
 }
 
 button.bouttonvalider{
-    width: 136px;
-    height:56px;
     background-color: #E0B9B4;
     color: white;
     border-color: white;
     border-style: none;
     border-radius: 5px 5px 5px 5px;
-    padding:10px;
-    margin-left:36px ;
-    margin-top: 5px;
-    
-}
-/*button{
-    color:white;
-    background-color: #E0B9B4;
-    border-style: none;
-    border: 5px 20px 5px 20px;
-    margin-right: 0px;
-    padding:10px;
-    margin-top: 5px;
-    width: 15%;  
+    padding: 15px 39px;
+    margin-left:20px ;
+    margin-top: 5px;  
+    width: 100px;  
 }
 
-
-button.nombre{
-    background-color: white;
-    border-radius:5px 0px 0px 5px;
-    margin-right: 0px;
-    margin-bottom: 0px; 
-    margin-top: 0px;
-    margin-left: 0px;
-    color: black;
-    width: 15%;
-    padding: 15px;
-}
-
-.boutonplus{
-    background-color: #dc9f96;
-    margin: 0px;
-    border-radius: 0px 5px 0px 0px;
-    padding:2px;
-    width: 5%;
-    height: 7%;
-    display: flex;
-}
-
-.boutonmoins{
-    background-color: #dc9f96;
-    margin: 0px;
-    border-radius: 0px 0px 5px 0px;
-    padding: 2px;
-    width: 5%;
-    height: 7%;
-    display: flex;
-    flex-direction: column;
- 
-}
-*/
+/******************deuxieme partie formulaire*********/
 
 .info {
     display: flex;
-    justify-content: center;   
+    
 }
     
 .droite{
+    width: 100%;
 	border-left:1px solid white;
     padding-left: 30px;
 }
     
 .gauche{
+    width: 100%;
     border-right:1px solid white;
-    padding-right:30px;  
+    padding-right:30px;
 }
-
+.gauche p, .gauche label, .gauche input{
+    width: 100%!important;
+}
+.droite p, .droite label, .droite input{
+    width: 100%!important;
+}
 .envoi {
     display: flex;
     justify-content: center;
@@ -202,6 +173,36 @@ button.nombre{
 
 
 
+/*RESPONSIVE*/
+@media screen and (max-width: 768px) {
+    .variantes {
+      flex-wrap: wrap;
+    }
+    .fraise, .pamplemousse, .framboise, .citron {
+        width: 100%;
+    }
+    .page_commande{
+        width: 100%;
+    }
+    .variantes img{
+        margin-top: 20px;
+    }
+}
+
+/*@media screen and (min-width: 1024px) {
+    .variantes {
+      flex-wrap: wrap;
+    }
+    .fraise, .pamplemousse, .framboise, .citron {
+        width: 100%;
+    }
+    .page_commande{
+        width: 100%;
+    }
+    .variantes img{
+        margin-top: 20px;
+    }
+}/*
 
 
 
