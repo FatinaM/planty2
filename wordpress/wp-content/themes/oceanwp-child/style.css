@@ -9,10 +9,17 @@ Tags: two-columns,right-sidebar,footer-widgets,blog,news,custom-background,custo
 Version: 3.5.0.1696856412
 Updated: 2023-10-09 15:00:12
 */
-/****************personalisation menu***********/
+/****************personalisation menu commande***********/
 
 .current-menu-item{
     font-weight: 600;
+}
+.menu-item-18 {
+    background-color: #E0B9B4;
+}
+
+.menu-item-18:hover {
+    background-color: #C02E44;
 }
 /*******************page commande personalisation générale****************/
 
@@ -35,6 +42,7 @@ h2.sous_titre{
     width: 75%;
     margin: 0 auto;
 }
+
  /************ premiere partie formulaire*************/
 
 .variantes{
@@ -77,13 +85,10 @@ h2.sous_titre{
 .compteur{
     display:flex;
     flex-direction: row;
-   /* width:200px ;
-    height: 56px;*/
 }
-
 button.Nombres{
     width: 44px;
-    height: 54px;
+    height: 42px;
     border-radius:5px 0px 0px 5px;
     margin-top: 5px;
     border: none;
@@ -93,57 +98,62 @@ button.Nombres input{
 }
 
 button.bouttonplus{
-    width: 30px;
-    height: 27px;
+    width: 20px;
+    height: 21px;
     border:white solid 1px;
     background-color:#DC9F96;
     border-radius: 0px 5px 0px 0px;
     margin-right: 0px;
-    /*padding:10px;*/
     margin-top: 5px;
     content: '+';
     color:white;
+    padding: 0px;
 }
-
+button.bouttonplus:hover{
+    background-color: #C02E44;
+}
 button.bouttonmoins{
-    width: 30px;
-    height:27px;
+    width: 20px;
+    height:21px;
     color:white;
     background-color: #DC9F96;
     border-radius: 0px 0px 5px 0px;
     border:white solid 1px;
-    /*margin-right: 0px;*/
-    /*padding-right:15px;*/
-    /*margin-bottom: 22px;*/
-    /*padding-bottom: 5px;*/
-
+    margin-right: 0px;
+    padding: 0px;
+    position: absolute;
+    margin-top: -5px;
 }
-
+button.bouttonmoins:hover{
+    background-color: #C02E44;
+}
 button.bouttonvalider{
     background-color: #E0B9B4;
     color: white;
     border-color: white;
     border-style: none;
     border-radius: 5px 5px 5px 5px;
-    padding: 15px 39px;
-    margin-left:20px ;
+    padding: 0px 25px;
     margin-top: 5px;  
-    width: 100px;  
+    width: 100%;
+    height: 45px;  
 }
-
+button.bouttonvalider:hover{
+    background-color: #C02E44;
+}
+.plus_moins{
+    margin-right:12px ;
+}
 /******************deuxieme partie formulaire*********/
 
 .info {
-    display: flex;
-    
-}
-    
+    display: flex;  
+}  
 .droite{
     width: 100%;
 	border-left:1px solid white;
     padding-left: 30px;
-}
-    
+}  
 .gauche{
     width: 100%;
     border-right:1px solid white;
@@ -162,36 +172,39 @@ button.bouttonvalider{
     padding-top: 20px;
     padding-bottom: 30px;
 }
-
 .wpcf7-spinner{
     display: none;
 }
-
 .center{
     text-align: center;
 }
 
-
-
 /*RESPONSIVE*/
-@media screen and (max-width: 768px) {
-    .variantes {
-      flex-wrap: wrap;
-    }
-    .fraise, .pamplemousse, .framboise, .citron {
-        width: 100%;
-    }
-    .page_commande{
-        width: 100%;
-    }
-    .variantes img{
-        margin-top: 20px;
+@media screen and (max-width: 1024px) {
+    .form_contact textarea{
+        width: 100%!important;
     }
 }
-
-/*@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
+    .compteur p{
+        width: 100%; 
+    }
+}
+@media screen and (max-width: 768px) {
+    .compteur{
+        margin: 0 auto;
+    }
+    a.menu-item-16 .menu-item-19{
+        color:black
+    }
+    .current-menu-item{
+        font-weight: 600;
+    }.menu-item-18 a{
+        color: white;
+    }
     .variantes {
       flex-wrap: wrap;
+      text-align: center;
     }
     .fraise, .pamplemousse, .framboise, .citron {
         width: 100%;
@@ -200,9 +213,45 @@ button.bouttonvalider{
         width: 100%;
     }
     .variantes img{
-        margin-top: 20px;
+        margin-top: 20px;      
     }
-}/*
+    button.bouttonvalider{
+        width: 100px;
+    }
+    /*button.Nombre{
+        width: 175%; 
+    }
+    button.bouttonmoins{
+        width: 175%;
+    }    
+    button.bouttonplus{
+        width: 175%;
+    }   
+    button.bouttonvalider{
+        width: 161%;
+    }*/
+    .info {
+    display: flex;  
+    flex-direction: column;
+    }  
+    .droite{
+    width: 100%;
+	border:none;
+    padding-left: 0px;
+    padding-top: 20px;    
+    }  
+    .gauche{
+    width: 100%;
+    border: none;
+    padding-left: 0px;  
+    }
+    div.form_contact input{
+        width: 100%!important;
+    }
+    .form_contact textarea{
+        width: 100%!important;
+    }
+}
 
 
 
