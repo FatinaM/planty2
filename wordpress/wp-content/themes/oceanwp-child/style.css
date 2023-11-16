@@ -218,18 +218,6 @@ button.bouttonvalider:hover{
     button.bouttonvalider{
         width: 100px;
     }
-    /*button.Nombre{
-        width: 175%; 
-    }
-    button.bouttonmoins{
-        width: 175%;
-    }    
-    button.bouttonplus{
-        width: 175%;
-    }   
-    button.bouttonvalider{
-        width: 161%;
-    }*/
     .info {
     display: flex;  
     flex-direction: column;
